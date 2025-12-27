@@ -169,7 +169,7 @@ export function ReceiptPreview({ data }: ReceiptPreviewProps) {
 
         {/* Footer */}
         <div className="mt-4 text-sm text-center">
-          <p>*** กรุณาชำระเงินภายในวันที่ 5 ของทุกเดือน ***</p>
+          <p>*** กรุณาชำระเงินภายในวันที่ 5 ของเดือนถัดไป ***</p>
         </div>
       </div>
     </div>
