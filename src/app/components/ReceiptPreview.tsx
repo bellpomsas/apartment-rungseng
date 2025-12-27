@@ -105,7 +105,7 @@ export function ReceiptPreview({ data }: ReceiptPreviewProps) {
           <tbody>
             {/* ค่าห้อง */}
             <tr className="border-2 border-black">
-              <td className="border-2 border-black p-2">ค่าห้องประจำ (ค่าห้องขั้นต่ำ150บาท)</td>
+              <td className="border-2 border-black p-2">ค่าห้อง</td>
               <td className="border-2 border-black p-2 text-center">-</td>
               <td className="border-2 border-black p-2 text-center">-</td>
               <td className="border-2 border-black p-2 text-center">-</td>
@@ -115,7 +115,7 @@ export function ReceiptPreview({ data }: ReceiptPreviewProps) {
 
             {/* ค่าน้ำ */}
             <tr className="border-2 border-black">
-              <td className="border-2 border-black p-2">ค่าไฟฟ้า</td>
+              <td className="border-2 border-black p-2">ค่าน้ำ (ค่าน้ำขั้นต่ำ 150 บาท)</td>
               <td className="border-2 border-black p-2 text-center">{data.waterUnitStart}</td>
               <td className="border-2 border-black p-2 text-center">{data.waterUnitEnd}</td>
               <td className="border-2 border-black p-2 text-center">{waterUnits}</td>
@@ -125,7 +125,7 @@ export function ReceiptPreview({ data }: ReceiptPreviewProps) {
 
             {/* ค่าไฟ */}
             <tr className="border-2 border-black">
-              <td className="border-2 border-black p-2">ค่าน้ำ</td>
+              <td className="border-2 border-black p-2">ค่าไฟ</td>
               <td className="border-2 border-black p-2 text-center">{data.electricUnitStart}</td>
               <td className="border-2 border-black p-2 text-center">{data.electricUnitEnd}</td>
               <td className="border-2 border-black p-2 text-center">{electricUnits}</td>
