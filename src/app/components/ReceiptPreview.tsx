@@ -85,7 +85,7 @@ export function ReceiptPreview({ data }: ReceiptPreviewProps) {
         <div className="text-center mb-4">
           <h1 className="text-xl mb-1">รุ่งแสงอพาร์ทเมนต์</h1>
           <p className="text-sm">
-            134 หมู่ 1 ซอย ดอดมหาวิจัน ตำบลบางเสาธง อำเภอบางเสาธง สมุทรปราการ 10570 โทร : 092-391-3682
+            134 หมู่ 1 ซอย คลองมหาชื้น ตำบลบางเสาธง อำเภอบางเสาธง สมุทรปราการ 10570 โทร : 092-391-3682
           </p>
           <p className="text-sm">{formatDate(data.date)}</p>
         </div>
