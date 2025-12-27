@@ -142,9 +142,11 @@ export function ReceiptPreview({ data }: ReceiptPreviewProps) {
             {/* ค่าปรับ */}
             <tr className="border-2 border-black">
               <td className="border-2 border-black p-2" colSpan={5}>
-                ค่าปรับล่าช้า เกินกำหนด วันสุดท้ายของเดือน - วันที่ 5 ของทุกเดือน ( เกินปรับวันละ 50 บาท ) จำนวน .......วัน
+              ค่าปรับล่าช้า เกินกำหนด วันสุดท้ายของเดือน - วันที่ 5 ของทุกเดือน (เกินปรับวันละ 50 บาท) จำนวน {data.lateDays} วัน
               </td>
-              <td className="border-2 border-black p-2 text-right">{lateFee}</td>
+              <td className="border-2 border-black p-2 text-right">
+              {lateFee.toFixed(2)}
+              </td>
             </tr>
 
             {/* ค่าจอดรถ */}
